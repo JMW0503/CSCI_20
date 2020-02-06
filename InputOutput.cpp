@@ -1,3 +1,12 @@
+/***************************************
+Input/Output Number
+Author: Justin Wilson
+Date Created: 2/6/2020
+Description: Asks user to input an integer value, waits for the user to
+ender the value, and then displays the entered value back to the terminal.
+After, the program displays two times the value entered to the terminal as well.
+***************************************/
+
 #include <iostream>
 
 using namespace std;
