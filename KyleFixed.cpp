@@ -16,27 +16,26 @@ Modified Description:
 using namespace std;
 
 int main()
-//int not integer
+//needs to be int not integer
 {
 	float base;
 	//needs to be a float not a char
 	float height;
-	//cant have a number in front of height. 
-	//need a ; to initialize
+	//cant have number in front of height. 
+	//needs to be a ; to initialize
 
 	float _answer;
 
 	string answermessage = "The answer is ";
-	//no space???
+	//cant have space
 
 	// Greet the user
 	cout<<"Hello, Friend!" <<endl<<endl;
-	// need "" 
-	//<< not >>
+	// needs ""  instead of <<  >>
 
 	// Ask for the triangle base
 	cout<<"What is the length of the base of the triangle?"<<endl;
-	//<< not >> again
+	//doesn't need <<  >> again
 	cin>>base;
 
 	// Ask for the triangle height
@@ -47,14 +46,14 @@ int main()
 
 	// Reassuring message
 	cout <<endl<<"Thanks, I'm doing some math now..."<<endl;
-	//>> not << also need to end with ; and missing an <
+	//>> not << also needs to end with ; and is missing an <
 
 	// Do some math
 	_answer = base * height;
 	
 	// Display the area of the triangle
 	cout<<answermessage<<(_answer / 2)<<endl;
-	//no space between answere and message
+	//no space between answer and message
 
 	return 0;
 }
