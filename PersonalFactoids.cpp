@@ -7,7 +7,7 @@ Description: Outputs personal factoids;
 1.Name
 2.Favorite fictional character
 3.Least favorite food
-4. Star Trek or Starwars?
+4. Star Trek or Starwars?s
 */
 
 
@@ -19,7 +19,8 @@ using namespace std;
 int main()
 
 {
-    cout<<"Justin wilson"<<endl;
+    
+    cout<<"Name: Justin wilson"<<endl;
 
     cout<<"Favorite fictional character: Elon Musk"<<endl;
 
