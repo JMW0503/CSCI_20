@@ -14,7 +14,7 @@ using namespace std;
 int main()
 
 {
-    float num;
+    int num;
 
     string answer = "You entered ";
     
