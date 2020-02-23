@@ -22,3 +22,10 @@ Boolean Expression:
 Function- A group of statements that is given a name, and which can be called 
 (invoked) from some point in the program to perform an individual task
  
+Function Anatomy in C++
+    Return type
+    Name 
+    Parameter list
+    Body 
+
+Return ≠ cout 
