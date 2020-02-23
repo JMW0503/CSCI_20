@@ -28,7 +28,7 @@ int main()
     ComicBook1.YearPublished = ComicBook1.YearPublished;
     ComicBook1.Author = ComicBook1.Author;
     ComicBook1.Ranking = ComicBook1.Ranking;
-
+/*
     ComicBook ComicBook2;
 
     ComicBook2.Title = 'Full Comic Book Title: ';
@@ -44,7 +44,7 @@ int main()
     ComicBook3.YearPublished = 'Year Published: ';
     ComicBook3.Author = 'Full Author Name: ';
     ComicBook3.Ranking = 'Comic Rating: ';
-
+*/
     cout<<"Comic Book 1: "<<endl;
     cout<<"Full Comic Book Title: "<<ComicBook1.Title;
     cin>>ComicBook1.Title;
@@ -61,8 +61,30 @@ int main()
     cout<<"Comic Rating: "<<ComicBook1.Ranking;
     cin>>ComicBook1.Ranking;
 
-    
 
+    cout<<"Comic Book 1: "<<endl;
+    cout<<ComicBook1.Title;
+    cout<<ComicBook1.Issue;
+    cout<<ComicBook1.YearPublished;
+    cout<<ComicBook1.Author;
+    cout<<ComicBook1.Ranking;
+/*
+    cout<<"Comic Book 2: "<<endl;
+    cout<<ComicBook2.Title;
+    cout<<ComicBook2.Issue;
+    cout<<ComicBook2.YearPublished;
+    cout<<ComicBook2.Author;
+    cout<<ComicBook2.Ranking;
+
+    cout<<"Comic Book 3: "<<endl;
+    cout<<ComicBook3.Title;
+    cout<<ComicBook3.Issue;
+    cout<<ComicBook3.YearPublished;
+    cout<<ComicBook3.Author;
+    cout<<ComicBook3.Ranking;
+*/
+
+    
     
 
 
