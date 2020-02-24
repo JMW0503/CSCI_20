@@ -1,4 +1,18 @@
+/*
+Comic Book Collection
+Justin Wilson
+2/23/2020
+a program that allows the user to input some metadata for three (3) of their most prized comic books. 
+The user must enter the following information for each comic book:
 
+Full Comic Book Title
+Issue Number
+Year Published
+Full Author Name
+Comic Ranking
+
+After all the information has been entered, display all of the comic book information back to the terminal, grouped appropriately.
+*/
 #include <iostream>
 using namespace std;
 
