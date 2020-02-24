@@ -1,54 +1,26 @@
-/*
-Comic Book Collection
-Justin Wilson
-2/22/2020
-
-*/
 
 #include <iostream>
 using namespace std;
 
 struct ComicBook
 {
-    char Title;
-    int Issue;
-    int YearPublished;
-    char Author;
-    int Ranking;
+    string Title;
+    string Issue;
+    string YearPublished;
+    string Author;
+    string Ranking;
     
 };
 
 
 int main()
 {
-    ComicBook ComicBook1;
-
-    ComicBook1.Title = ComicBook1.Title;
-    ComicBook1.Issue = ComicBook1.Issue;
-    ComicBook1.YearPublished = ComicBook1.YearPublished;
-    ComicBook1.Author = ComicBook1.Author;
-    ComicBook1.Ranking = ComicBook1.Ranking;
-/*
-    ComicBook ComicBook2;
-
-    ComicBook2.Title = 'Full Comic Book Title: ';
-    ComicBook2.Issue = 'Issue Number: ';
-    ComicBook2.YearPublished = 'Year Published: ';
-    ComicBook2.Author = 'Full Author Name: ';
-    ComicBook2.Ranking = 'Comic Rating: ';
-
-    ComicBook ComicBook3;
-
-    ComicBook3.Title = 'Full Comic Book Title: ';
-    ComicBook3.Issue = 'Issue Number: ';
-    ComicBook3.YearPublished = 'Year Published: ';
-    ComicBook3.Author = 'Full Author Name: ';
-    ComicBook3.Ranking = 'Comic Rating: ';
-*/
+    ComicBook ComicBook1 = {};
+    
     cout<<"Comic Book 1: "<<endl;
     cout<<"Full Comic Book Title: "<<ComicBook1.Title;
     cin>>ComicBook1.Title;
-
+    
     cout<<"Issue Number: "<<ComicBook1.Issue;
     cin>>ComicBook1.Issue;
 
@@ -60,36 +32,70 @@ int main()
 
     cout<<"Comic Rating: "<<ComicBook1.Ranking;
     cin>>ComicBook1.Ranking;
+    cout<<endl<<endl;
 
-
-    cout<<"Comic Book 1: "<<endl;
-    cout<<ComicBook1.Title;
-    cout<<ComicBook1.Issue;
-    cout<<ComicBook1.YearPublished;
-    cout<<ComicBook1.Author;
-    cout<<ComicBook1.Ranking;
-/*
+    ComicBook ComicBook2 = {};
+    
     cout<<"Comic Book 2: "<<endl;
-    cout<<ComicBook2.Title;
-    cout<<ComicBook2.Issue;
-    cout<<ComicBook2.YearPublished;
-    cout<<ComicBook2.Author;
-    cout<<ComicBook2.Ranking;
+    cout<<"Full Comic Book Title: "<<ComicBook2.Title;
+    cin>>ComicBook2.Title;
+    
+    cout<<"Issue Number: "<<ComicBook2.Issue;
+    cin>>ComicBook2.Issue;
+
+    cout<<"Year Published: "<<ComicBook2.YearPublished;
+    cin>>ComicBook2.YearPublished;
+
+    cout<<"Full Author Name: "<<ComicBook2.Author;
+    cin>>ComicBook2.Author;
+
+    cout<<"Comic Rating: "<<ComicBook2.Ranking;
+    cin>>ComicBook2.Ranking;
+    cout<<endl<<endl;
+
+    ComicBook ComicBook3 = {};
+    
+    cout<<"Comic Book 3: "<<endl;
+    cout<<"Full Comic Book Title: "<<ComicBook3.Title;
+    cin>>ComicBook3.Title;
+    
+    cout<<"Issue Number: "<<ComicBook3.Issue;
+    cin>>ComicBook3.Issue;
+
+    cout<<"Year Published: "<<ComicBook3.YearPublished;
+    cin>>ComicBook3.YearPublished;
+
+    cout<<"Full Author Name: "<<ComicBook3.Author;
+    cin>>ComicBook3.Author;
+
+    cout<<"Comic Rating: "<<ComicBook3.Ranking;
+    cin>>ComicBook3.Ranking;
+    cout<<endl<<endl;
+
+    
+    cout<<"Comic Book 1: "<<endl;
+    cout<<"Full Comic Book Title: "<<ComicBook1.Title<<endl;
+    cout<<"Issue Number: "<<ComicBook1.Issue<<endl;
+    cout<<"Year Published: "<<ComicBook1.YearPublished<<endl;
+    cout<<"Full Author Name: "<<ComicBook1.Author<<endl;
+    cout<<"Comic Rating: "<<ComicBook1.Ranking<<endl<<endl;
+    
+  
+    cout<<"Comic Book 2: "<<endl;
+    cout<<"Full Comic Book Title: "<<ComicBook2.Title<<endl;
+    cout<<"Issue Number: "<<ComicBook2.Issue<<endl;
+    cout<<"Year Published: "<<ComicBook2.YearPublished<<endl;
+    cout<<"Full Author Name: "<<ComicBook2.Author<<endl;
+    cout<<"Comic Rating: "<<ComicBook2.Ranking<<endl<<endl;
+    
 
     cout<<"Comic Book 3: "<<endl;
-    cout<<ComicBook3.Title;
-    cout<<ComicBook3.Issue;
-    cout<<ComicBook3.YearPublished;
-    cout<<ComicBook3.Author;
-    cout<<ComicBook3.Ranking;
-*/
+    cout<<"Full Comic Book Title: "<<ComicBook3.Title<<endl;
+    cout<<"Issue Number: "<<ComicBook3.Issue<<endl;
+    cout<<"Year Published: "<<ComicBook3.YearPublished<<endl;
+    cout<<"Full Author Name: "<<ComicBook3.Author<<endl;
+    cout<<"Comic Rating: "<<ComicBook3.Ranking<<endl;
 
     
-    
-
-
-
-
-
     return 0;
 }
