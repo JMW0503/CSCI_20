@@ -28,6 +28,14 @@ struct Combo
        string Entree;
        string Side;
        float Price;
+
+       void display(int ComboNum)
+       {
+           cout<<"Combo Number "<<ComboNum<<":"<<endl;
+           cout<<"Entree: "<<Entree<<endl;
+           cout<<"Side: "<<Side<<endl;
+           cout<<"Price: "<<Price<<endl<<endl;
+       }
     };
 
 
@@ -35,41 +43,31 @@ struct Combo
 
 int main()
 {
-    Combo Combo1 = {};
+    Combo Combo1;
 
     Combo1.Entree = "Hamburger";
     Combo1.Side = "Fries";
     Combo1.Price = 5.99;
 
-    cout<<"Combo 1: "<<endl;
-    cout<<"Entree: "<<Combo1.Entree;
-    cout<<endl<<"Side: "<<Combo1.Side;
-    cout<<endl<<"Price: "<<Combo1.Price<<endl;
     
-    Combo Combo2 = {};
+    
+    Combo Combo2;
 
     Combo2.Entree = "Burrito";
     Combo2.Side = "Rice";
     Combo2.Price = 4.99;
 
-    cout<<endl<<"Combo 2:";
-    cout<<endl<<"Entree: "<<Combo2.Entree;
-    cout<<endl<<"Side: "<<Combo2.Side;
-    cout<<endl<<"Price: "<<Combo2.Price<<endl;
 
-    Combo Combo3 = {};
+    Combo Combo3;
 
     Combo3.Entree = "Salad";
     Combo3.Side = "Breadsticks";
     Combo3.Price = 4.49;
 
-    cout<<endl<<"Combo 3: ";
-    cout<<endl<<"Entree: "<<Combo3.Entree;
-    cout<<endl<<"Side: "<<Combo3.Side;
-    cout<<endl<<"Price: "<<Combo3.Price;
-
+    Combo1.display(1);
+    Combo2.display(2);
+    Combo3.display(3);
     
 
-    
     return 0;
 }
