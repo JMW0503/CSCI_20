@@ -9,8 +9,6 @@ Description: [PROGRAM DESCRIPTION]
 using namespace std;
 
 
-// Implement WebCounter class definition here
-
 
 int main()
 {
