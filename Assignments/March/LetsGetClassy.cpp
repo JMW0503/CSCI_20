@@ -30,20 +30,7 @@ class Combo
         :Entree(E), SideName(SN), Price(P)
         {}
     
-    string getEntree()
-    {
-        return Entree;
-    }
-
-    string GetSideName()
-    {
-        return SideName;
-    }
-
-    float GetPrice()
-    {
-        return Price;
-    }
+    
 
     void display(int ComboNum)
     {
